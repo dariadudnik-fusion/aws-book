@@ -9,8 +9,10 @@ provider:
 
 functions:
   get-book-list:
-    handler: index.handler
+    handler: lambdas/getBookList.handler
     events:
       - httpApi:
           path: /books/{id}
           method: get
+
+

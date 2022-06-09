@@ -207,7 +207,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/aws-book-api/dev/1654270061605-2022-06-03T15:27:41.605Z/aws-book-api.zip"
+          "S3Key": "serverless/aws-book-api/dev/1654270289196-2022-06-03T15:31:29.196Z/aws-book-api.zip"
         },
         "Handler": "s_get_book_list.handler",
         "Runtime": "nodejs14.x",
@@ -225,14 +225,14 @@
         "GetDashbookDashlistLogGroup"
       ]
     },
-    "GetDashbookDashlistLambdaVersioniYzN6SMub3jJE6jP8UOp6lYj2mdipU1cNC1zWRmlvhE": {
+    "GetDashbookDashlistLambdaVersion4H0ad8isahZN33VIlImKvQNPHkLRG5j48u9uBY3f8": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "GetDashbookDashlistLambdaFunction"
         },
-        "CodeSha256": "cjLwqEA4tY19iOI0mkip8r7cSM0wWT8cYSZTPcx7S0M="
+        "CodeSha256": "dds5KuCXYb3tBp4zQtNs164ouUjk1ROPamCMhMzvfL0="
       }
     },
     "HttpApi": {
@@ -390,7 +390,7 @@
     "GetDashbookDashlistLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "GetDashbookDashlistLambdaVersioniYzN6SMub3jJE6jP8UOp6lYj2mdipU1cNC1zWRmlvhE"
+        "Ref": "GetDashbookDashlistLambdaVersion4H0ad8isahZN33VIlImKvQNPHkLRG5j48u9uBY3f8"
       },
       "Export": {
         "Name": "sls-aws-book-api-dev-GetDashbookDashlistLambdaFunctionQualifiedArn"

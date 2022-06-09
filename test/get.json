@@ -3,7 +3,12 @@
   "headers": {},
   "path": "",
   "pathParameters": {
-    "userId": 1
+    "id": 1
+  },
+  "requestContext": {
+    "http": {
+      "method": "GET"
+    }
   },
   "queryStringParameters": {}
 }
